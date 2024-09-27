@@ -50,4 +50,9 @@ public class Data {
     }
 
     //imprimir data
+    
+    @Override
+    public String toString(){
+        return dia + "/" + iMes + "/" + ano;
+    }
 }

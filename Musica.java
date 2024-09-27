@@ -6,11 +6,15 @@ public class Musica {
     public Data dataLancamento;
 
     public Musica(String nome, String artista, String compositor, int duracao, int dia, int mes, int ano){
+        dataLancamento = new Data(dia, mes, ano);
         setNome(nome);
         setCompositor(compositor);
         setArtista(artista);
         setDuracao(duracao);
-        setData(dia, mes, ano);
+    }
+
+    public Data getDataLancamento() {
+        return dataLancamento;
     }
 
     public String getArtista() {
