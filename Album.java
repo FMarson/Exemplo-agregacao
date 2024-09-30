@@ -56,5 +56,11 @@ public class Album {
             System.out.println("Não foi possível encontrar a música " + nomeMusica);
     }
 
+    //implementar os seguintes métodos:
+    // - listarMusicasPorArtista(String nome)
+    // - listarMusicasPorCompositor(String nome)
+    // - listarMusicasPorAnoLancamento(int ano)
+    // - getQuantidadeAtualMusicas()
+    // - reimplementar o toString para mostras as informações do álbum
 
 }
